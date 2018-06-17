@@ -1,0 +1,13 @@
+{
+    "require": {
+        "programster/js-demo-welcomer": "0.1.1"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "rm -f public_html/js/js-demo-welcomer && ln -s ../../vendor/programster/js-demo-welcomer/src public_html/js/js-demo-welcomer"
+        ],
+        "post-update-cmd": [
+            "rm -f public_html/js/js-demo-welcomer && ln -s ../../vendor/programster/js-demo-welcomer/src public_html/js/js-demo-welcomer"
+        ]
+    }
+}

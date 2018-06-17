@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f26ad59c87f7e8d8989a069876974c76",
+    "packages": [
+        {
+            "name": "programster/js-demo-welcomer",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/programster/package-js-demo-welcomer.git",
+                "reference": "abafe29b3f2118bc5d599676371ca562f905e223"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/programster/package-js-demo-welcomer/zipball/abafe29b3f2118bc5d599676371ca562f905e223",
+                "reference": "abafe29b3f2118bc5d599676371ca562f905e223",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "email": "sdpagent@gmail.com",
+                    "homepage": "https://blog.programster.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Example javascript package",
+            "homepage": "https://blog.programster.org",
+            "keywords": [
+                "JS",
+                "demo",
+                "hello-world"
+            ],
+            "time": "2018-06-17T12:40:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
